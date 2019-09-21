@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-platzi",
+  "version": "1.0.0",
+  "description": "Proyecto Aero Platzi, By Debuggies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulBG/proyecto-platzi.git"
+  },
+  "author": "Debuggies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaulBG/proyecto-platzi/issues"
+  },
+  "homepage": "https://github.com/RaulBG/proyecto-platzi#readme",
+  "dependencies": {
+    "node-sass": "4.12.0"
+  }
+}
