@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px; }
+
+.header {
+  display: block;
+  width: 100%; }
+
+.header__menu {
+  background-color: #FFFFFF;
+  box-shadow: 5px 10px 10px #888888;
+  display: block;
+  height: 60px;
+  width: 100%; }
+
+.header__menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+  padding: 0 70px; }
+
+.header__menu ul li {
+  list-style: none; }
+
+.header__menu ul li a {
+  color: #0099ff;
+  font-weight: 600;
+  text-decoration: none; }
+
+.header__buscar {
+  background: url("../img/bg_header.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 50vh;
+  width: 100%; }
+
+.header__buscar--blur {
+  background: rgba(0, 0, 0, 0.3);
+  display: block;
+  height: 100%;
+  width: 100%; }
+
+.header__buscar__title, .header__buscar__subtitle {
+  color: #FFFFFF;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  padding-top: 50px; }
+
+.header__buscar__subtitle {
+  font-size: 22px; }
+
+.header__buscar--center {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%; }
+
+.header__buscar__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; }
+
+.header__buscar__form input {
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px; }
+
+.header__buscar__form button {
+  border: 1px solid #ff4500;
+  border-radius: 10px;
+  background: #ff4500;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 15px;
+  width: 200px; }
+
+.header__buscar__form button:hover {
+  background: #cf3c06;
+  border: 1px solid #cf3c06; }
+
+.resultados {
+  display: block;
+  margin: 50px auto 0;
+  width: 80%; }
+
+.resultados__titulo {
+  color: #504033; }
+
+.resultados__horarios {
+  border: 1px solid #c3c3c3;
+  border-radius: 10px;
+  height: 80px;
+  display: flex;
+  align-items: center; }
+
+.resultados__horarios ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%; }
+
+.resultados__horarios ul li {
+  list-style: none; }
+
+.resultados__horarios ul li a {
+  color: #2995b6;
+  font-size: 22px;
+  text-decoration: none; }
+
+.cuenta {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.cuenta__parrafo {
+  color: #696969;
+  font-size: 18px; }
+
+.cuenta__parrafo a {
+  color: #0099ff;
+  padding-left: 5px;
+  text-decoration: none; }

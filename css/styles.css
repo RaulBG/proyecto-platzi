@@ -26,6 +26,7 @@ body {
   list-style: none; }
 
 .header__menu ul li a {
+  color: #2c2c83;
   text-decoration: none; }
 
 .header__buscar {

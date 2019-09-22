@@ -6,27 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>AeroPlatzi</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <header class="header">
     <nav class="header__menu">
       <ul>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/">Iniciar Sesión</a></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Iniciar Sesión</a></li>
       </ul>
     </nav>
     <section class="header__buscar">
-      <form class="header__buscar__form">
-        <input type="text" placeholder="Origen">
-        <input type="text" placeholder="Destino">
-        <input type="text" placeholder="Fecha de salida">
-        <button type="button">Bucar vuelo</button>
-      </form>
+      <div class="header__buscar--blur">
+        <h1 class="header__buscar__title">NOMBRE DE LA AEROLINEA</h1>
+        <h2 class="header__buscar__subtitle">Busca tu vuelo ideal</h2>
+        <div class="header__buscar--center">
+          <form class="header__buscar__form">
+            <input type="text" placeholder="Origen">
+            <input type="text" placeholder="Destino">
+            <input type="date" placeholder="Fecha de salida">
+            <button type="button">Bucar vuelo</button>
+          </form>
+        </div>
+      </div>
     </section>
   </header>
   <section class="resultados">
-    <h2>Lunes</h2>
+    <h2 class="resultados__titulo">Lunes</h2>
     <div class="resultados__horarios">
       <ul>
         <li><a href="/">10:00</a></li>
@@ -36,8 +42,8 @@
       </ul>
     </div>
   </section>
-  <section class="">
-
-  </section>
+  <div class="cuenta">
+    <p class="cuenta__parrafo">¿Aún no tienes cuenta? <a href="#">registrate ahora</a></p>
+  </div>
 </body>
 </html>
