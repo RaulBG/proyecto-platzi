@@ -70,6 +70,21 @@ body {
 .resultados__titulo {
   color: $color-title;
 }
+.resultados__form {
+  display: block;
+  margin: 20px 0;
+}
+.resultados__form label {
+  color: $color-text;
+}
+.resultados__form select {
+  background: white;
+  border: 1px solid #f2f2f2;
+  color: #2995b6;
+  border-radius: 7px;
+  padding: 5px;
+  width: 200px;
+}
 .resultados__horarios {
   border: 1px solid #c3c3c3;
   border-radius: 10px;
@@ -90,6 +105,10 @@ body {
   color: #2995b6;
   font-size: 22px;
   text-decoration: none;
+}
+.resultados__horarios ul li a:hover {
+  text-decoration: underline;
+  color: $color-orange;
 }
 // texto para crear cuenta
 .cuenta {

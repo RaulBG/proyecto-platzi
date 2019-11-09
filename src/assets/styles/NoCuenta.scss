@@ -1,0 +1,16 @@
+// texto para crear cuenta
+.cuenta {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cuenta__parrafo {
+  color: $color-text;
+  font-size: 18px;
+}
+.cuenta__parrafo a {
+  color: $color-blue;
+  padding-left: 5px;
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: $font;
+  font-size: 16px;
+}
+.header__content {
+  background: url(../img/bg_header.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 50vh; 
+  width: 100%;
+}
+.header__content--blur {
+  background: rgba(0, 0, 0, 0.3);
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.header__content__title {
+  color: $color-white;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+}
+.header__content__subtitle {
+  @extend .header__content__title;
+  font-size: 22px;
+}
+.header__content--center {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%;
+}
+.header__content__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
