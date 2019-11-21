@@ -17,6 +17,7 @@ module.exports = {
     hot: true,
     injectClient: true,
     injectHot: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [

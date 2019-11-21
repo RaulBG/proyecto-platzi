@@ -1,0 +1,32 @@
+.buy__container {
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  display: block;
+  margin: 40px auto;
+  padding: 10px;
+  width: 700px;
+}
+.buy__container h1 {
+  color: $color-orange;
+}
+.buy__container h2 {
+  color: $color-title;
+}
+.buy__container p {
+  color: $color-text;
+}
+.buy__container button {
+  border: 1px solid $color-blue;
+  border-radius: 7px;
+  color: $color-blue;
+  display: block;
+  font-size: 16px;
+  margin: 10px auto;
+  padding: 10px 0;
+  width: 80%;
+}
+.buy__container button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: $color-blue;
+}

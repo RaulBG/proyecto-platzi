@@ -14,10 +14,10 @@ const Results = () => (
     </form>
     <div className='resultados__horarios'>
       <ul>
-        <li><a href='/'>10:00</a></li>
-        <li><a href='/'>12:00</a></li>
-        <li><a href='/'>13:30</a></li>
-        <li><a href='/'>16:00</a></li>
+        <li><a href='/fly'>10:00</a></li>
+        <li><a href='/fly'>12:00</a></li>
+        <li><a href='/fly'>13:30</a></li>
+        <li><a href='/fly'>16:00</a></li>
       </ul>
     </div>
   </section>
