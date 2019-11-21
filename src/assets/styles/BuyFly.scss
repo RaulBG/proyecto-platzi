@@ -7,7 +7,7 @@
   width: 700px;
 }
 .buy__container h1 {
-  color: $color-orange;
+  color: $color-blue;
 }
 .buy__container h2 {
   color: $color-title;
@@ -15,7 +15,7 @@
 .buy__container p {
   color: $color-text;
 }
-.buy__container button {
+.buy__container a {
   border: 1px solid $color-blue;
   border-radius: 7px;
   color: $color-blue;
@@ -23,9 +23,11 @@
   font-size: 16px;
   margin: 10px auto;
   padding: 10px 0;
+  text-decoration: none;
+  text-align: center;
   width: 80%;
 }
-.buy__container button:hover {
+.buy__container a:hover {
   cursor: pointer;
   color: white;
   background-color: $color-blue;
