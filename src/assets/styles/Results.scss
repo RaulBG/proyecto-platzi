@@ -17,34 +17,33 @@
 .resultados__form select {
   background: white;
   border: 1px solid #f2f2f2;
-  color: #2995b6;
   border-radius: 7px;
+  color: #2995b6;
+  font-size: 16px;
   margin-left: 10px;
   padding: 5px;
   width: 200px;
 }
-.resultados__horarios {
-  border: 1px solid #c3c3c3;
-  border-radius: 10px;
-  height: 80px;
+.resultados__flies {
   display: flex;
   align-items: center;
-}
-.resultados__horarios ul {
+  flex-direction: column;
   padding: 0;
-  display: flex;
-  justify-content: space-around;
   width: 100%;
 }
-.resultados__horarios ul li {
+.resultados__flies li {
+  border: 1px solid lightgray;
+  border-radius: 7px;
   list-style: none;
+  margin: 10px 0;
+  padding: 10px 15px;
+  width: 90%;
 }
-.resultados__horarios ul li a {
-  color: #2995b6;
-  font-size: 22px;
+.resultados__flies li a {
+  color: $color-blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-decoration: none;
-}
-.resultados__horarios ul li a:hover {
-  text-decoration: underline;
-  color: $color-orange;
+  outline: none;
 }

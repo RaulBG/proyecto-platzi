@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Menu from '../components/Menu';
 import '../assets/styles/Cart.scss';
 import useInitialState from '../hooks/useInitialState';
@@ -34,7 +35,7 @@ const Cart = () => {
             (
               <>
                 <p>No ha agregado vuelos aún</p>
-                <a href='/'>Continuar comprando</a>
+                <Link to='/'>Continuar comprando</Link>
               </>
             ) }
         </ul>

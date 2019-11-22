@@ -6,11 +6,11 @@ body {
 .header__content {
   background: url(../img/bg_header.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 50vh; 
+  height: 35vh;
   width: 100%;
 }
 .header__content--blur {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.4);
   display: block;
   height: 100%;
   width: 100%;
@@ -20,7 +20,7 @@ body {
   font-size: 26px;
   text-align: center;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 60px;
 }
 .header__content__subtitle {
   @extend .header__content__title;
